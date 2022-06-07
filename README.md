@@ -1,12 +1,12 @@
 # simple_aws_translate
 
-A Simple implementation of the AWS Translate plugin
+A Simple implementation of the AWS Translate plugin.
 
-DISCLAIMER: This is not the AWS officialy released plugin!
+DISCLAIMER: This is not the AWS officialy released plugin.
 
 ## Getting Started
-This plugin only supports the Android platform for now.
-Ios support will come later.
+For now, This plugin only supports the Android platform.
+I plan to add Ios support later.
 
 To use this plugin, call init with the access key and secret key that you get from AWS translation.
 You only need to call the init function once.
@@ -16,7 +16,7 @@ SimpleAwsTranslate.instance.init(
         secretKey: "your secret key");
 ```
 
-After you finished call init. You can call the static function translateText to translate any text you want, that function would return translated text if success.
+After you finished call init. You can call the static function `translateText` to translate any text you want, that function would return translated text if success.
 ```
 String? result = SimpleAwsTranslate.instance.translateText(text:"Hallo bang!",from:"id",to:"en");
 if(result == null){
@@ -27,5 +27,6 @@ if(result == null){
 ```
 
 A complete example can be found in the example.
+
 Contributions or bug reports are welcome.
 
