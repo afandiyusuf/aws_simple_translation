@@ -1,6 +1,6 @@
 name: simple_aws_translate
 description: A Simple implementation of the AWS Translation plugin.
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/afandiyusuf/aws_simple_translation
 
 environment:
