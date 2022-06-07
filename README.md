@@ -17,8 +17,11 @@ SimpleAwsTranslate.instance.init(
 ```
 
 After you finished call init. You can call the static function `translateText` to translate any text you want, that function would return translated text if success.
+The `from` parameter is optional, the plugin would be using "auto" as a value if you didn't set it.
 ```
 String? result = SimpleAwsTranslate.instance.translateText(text:"Hallo bang!",from:"id",to:"en");
+//String? result = SimpleAwsTranslate.instance.translateText(text:"Hallo bang!",to:"en");
+
 if(result == null){
     print("Something went wrong");
 }else{
