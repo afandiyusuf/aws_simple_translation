@@ -8,16 +8,16 @@ DISCLAIMER: This is not the AWS officialy released plugin.
 For now, This plugin only supports the Android platform.
 I plan to add Ios support later.
 
-To use this plugin, call init with the access key and secret key that you get from AWS translation.
-You only need to call the init function once.
+To use this plugin, call `init` function with the `access key` and `secret key` that you get from AWS translation.
+You only need to call the `init` function once.
 ```
 SimpleAwsTranslate.instance.init(
         accessKey: "your access key",
         secretKey: "your secret key");
 ```
 
-After you finished call init. You can call the static function `translateText` to translate any text you want, that function would return translated text if success.
-The `from` parameter is optional, the plugin would be using "auto" as a value if you didn't set it.
+After you finished call `init`. You can call the static function `translateText` to translate any text you want, that function would return translated text if success.
+The `from` parameter is optional, the plugin would be using ``"auto"`` as a value if you didn't set it.
 ```
 String? result = SimpleAwsTranslate.instance.translateText(text:"Hallo bang!",from:"id",to:"en");
 //String? result = SimpleAwsTranslate.instance.translateText(text:"Hallo bang!",to:"en");
