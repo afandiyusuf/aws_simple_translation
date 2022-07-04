@@ -1,3 +1,7 @@
+## 0.0.4
+
+* Add support for ios.
+
 ## 0.0.3
 
 * Add license file.

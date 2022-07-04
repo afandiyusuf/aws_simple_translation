@@ -1,0 +1,33 @@
+PODS:
+  - AWSCore (2.6.35)
+  - AWSTranslate (2.6.35):
+    - AWSCore (= 2.6.35)
+  - Flutter (1.0.0)
+  - simple_aws_translate (0.0.1):
+    - AWSTranslate (~> 2.6.19)
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - simple_aws_translate (from `.symlinks/plugins/simple_aws_translate/ios`)
+
+SPEC REPOS:
+  trunk:
+    - AWSCore
+    - AWSTranslate
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  simple_aws_translate:
+    :path: ".symlinks/plugins/simple_aws_translate/ios"
+
+SPEC CHECKSUMS:
+  AWSCore: 2dab62ef2e5ca5d8c72c6cbdb3a6ea1532c27c2b
+  AWSTranslate: 2eadeb1942dc9495e1431d6e7d0367309b79fab3
+  Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
+  simple_aws_translate: 4771f2e0b2d0c8d9043497ecd2739f70c6f7694a
+
+PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
+
+COCOAPODS: 1.11.2

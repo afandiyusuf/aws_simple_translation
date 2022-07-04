@@ -5,8 +5,6 @@ A Simple implementation of the AWS Translate plugin.
 DISCLAIMER: This is not the AWS officialy released plugin.
 
 ## Getting Started
-For now, This plugin only supports the Android platform.
-I plan to add Ios support later.
 
 To use this plugin, call `init` function with the `access key` and `secret key` that you get from AWS translation.
 You only need to call the `init` function once.
