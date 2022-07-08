@@ -1,3 +1,7 @@
+## 0.0.5
+
+* Set default region for the Android version.
+
 ## 0.0.4
 
 * Add support for ios.
