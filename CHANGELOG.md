@@ -1,3 +1,7 @@
+## 0.0.6
+
+* Update sdk versions.
+
 ## 0.0.5
 
 * Set default region for the Android version.
