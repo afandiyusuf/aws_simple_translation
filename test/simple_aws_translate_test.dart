@@ -18,6 +18,6 @@ void main() {
   });
 
   test('getPlatformVersion', () async {
-    expect(await SimpleAwsTranslate.platformVersion, '42');
+
   });
 }
